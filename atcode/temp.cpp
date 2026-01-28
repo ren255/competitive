@@ -1,4 +1,6 @@
 #include <bits/stdc++.h>
+#include <atcoder/fenwicktree>
+
 using namespace std;
 
 // 1行に整数1つ
