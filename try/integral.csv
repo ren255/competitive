@@ -1,0 +1,21 @@
+id,質問,答え
+1,∫ cos x dx,sin x
+2,∫ dx/(3√x),(3/2)x^(2/3)
+3,∫ dx/(x²+4),(1/2)tan^(-1)(x/2)
+4,∫ dx/√(4-x²),sin^(-1)(x/2)
+5,∫ dx/x²,-1/x
+6,∫ dx/(x²-4),(1/4)log|(x-2)/(x+2)|
+7,∫ dx/√(x²-4),log|x+√(x²-4)|
+8,∫ sin4x dx,-(1/4)cos(4x)
+9,∫ e^x dx,e^x
+10,∫ dx/cos²x,tan x
+11,∫ e^(2x) dx,(1/2)e^(2x)
+12,∫ x/(x²+1) dx,(1/2)log|x²+1|
+13,∫ dx/√(x²+1),log|x+√(x²+1)|
+14,∫ x^4 dx,x^5/5
+15,∫ dx/x,log|x|
+16,∫ sin x dx,-cos x
+17,∫ x²/(x²-1) dx,x + (1/2)log|(x-1)/(x+1)|
+18,∫ √x dx,(2/3)√(x³)
+19,∫ dx/(sin²x),-cot x
+20,∫ cos²(x/2) dx,2sin(x/2)
