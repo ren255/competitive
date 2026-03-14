@@ -1,4 +1,4 @@
-import bisect, collections, copy, heapq, itertools, math, numpy, string
+import bisect, collections, copy, heapq, itertools, math, string
 import sys
 
 
@@ -18,5 +18,17 @@ def LS():  # 1行に空白区切りの文字列複数
     return list(sys.stdin.readline().rstrip().split())
 
 
-N = I()
-L = [I() for _ in range(N)]
+# H 行 W 列のブロックからなる長方形状のチョコレートがあります。
+H, W, Q = LI()
+querry = [LI() for _ in range(Q)]
+
+for T, V in querry:
+
+    if T == 1:
+        H -= V
+        ate = W * V
+    elif T == 2:
+        W -= V
+        ate = H * V
+
+    print(ate)

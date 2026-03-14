@@ -1,4 +1,4 @@
-import bisect, collections, copy, heapq, itertools, math, numpy, string
+import bisect, collections, copy, heapq, itertools, math, string
 import sys
 
 
@@ -19,4 +19,5 @@ def LS():  # 1行に空白区切りの文字列複数
 
 
 N = I()
-L = [I() for _ in range(N)]
+pi = 3.141592653589793
+print((N / 2) ** 2 * pi)
