@@ -18,5 +18,29 @@ def LS():  # 1行に空白区切りの文字列複数
     return list(sys.stdin.readline().rstrip().split())
 
 
+from time import time
+
 N = I()
-L = [I() for _ in range(N)]
+L = LI()
+
+pos = 0.5
+pass_zero = 0
+
+start = time()
+
+for move in L:
+    # print(f"pos:{pos}  move:{move} diff:{abs(pos - 0)}")
+    if abs(pos - 0) < move:
+        pass_zero += 1
+        # print("pass")
+
+    if 0 < pos:
+        pos -= move
+    else:
+        pos += move
+
+duration = time() - start
+print(f"duration:{duration:.5f}, max_time:{(duration/N)*10**9:.2f}")
+
+
+print(pass_zero)
